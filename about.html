@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>About the Team</title>
+    <style>
+        /* Flex container for images */
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 2em;
+        }
+        .image-col {
+            text-align: center;
+        }
+        .image-col img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            display: block;
+        }
+        .image-col p {
+            margin-top: 0.5em;
+            font-weight: bold;
+        }
+        a.home-link {
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            font-size: 1em;
+            color: #2fa1d6;
+            text-decoration: none;
+        }
+        a.home-link:hover {
+            text-decoration: underline;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <a class="home-link" href="index.html">Home</a>
+
+    <div class="image-row">
+        <div class="image-col">
+            <img src="alpacas.jpg" alt="Alpaca 1">
+            <p>Alpaca 1</p>
+        </div>
+        <div class="image-col">
+            <img src="alpacas.jpg" alt="Alpaca 2">
+            <p>Alpaca 2</p>
+        </div>
+        <div class="image-col">
+            <img src="alpacas.jpg" alt="Alpaca 3">
+            <p>Alpaca 3</p>
+        </div>
+        <div class="image-col">
+            <img src="alpacas.jpg" alt="Alpaca 4">
+            <p>Alpaca 4</p>
+        </div>
+    </div>
+    <p>Hello from the alpacas.</p>
+
+</body>
+</html>
